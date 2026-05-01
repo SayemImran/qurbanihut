@@ -1,0 +1,42 @@
+<svg width="100%" viewBox="0 0 690 320" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">QurbaniHut logo — green edition</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">QurbaniHut logo with a green color scheme, featuring a stylized hut with crescent moon and star</desc>
+
+  <defs>
+    
+  <mask id="imagine-text-gaps-vecugy" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="690" height="320" fill="white"/><rect x="393.1400146484375" y="146" width="291.2339782714844" height="69.5999984741211" fill="black" rx="2"/><rect x="417" y="206" width="238.6999969482422" height="24" fill="black" rx="2"/></mask></defs>
+
+  <!-- HUT BODY -->
+  <rect x="228" y="168" width="144" height="88" rx="4" fill="#3B6D11" style="fill:rgb(59, 109, 17);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Door -->
+  <rect x="282" y="196" width="36" height="60" rx="18" fill="#173404" style="fill:rgb(23, 52, 4);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Door arch highlight -->
+  <rect x="284" y="198" width="32" height="30" rx="16" fill="#27500A" style="fill:rgb(39, 80, 10);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ROOF -->
+  <polygon points="200,168 300,80 400,168" fill="#639922" style="fill:rgb(99, 153, 34);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Roof ridge -->
+  <line x1="300" y1="80" x2="300" y2="168" stroke="#27500A" stroke-width="2" opacity="0.4" style="fill:rgb(0, 0, 0);stroke:rgb(39, 80, 10);color:rgb(0, 0, 0);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- THATCHED LINES -->
+  <line x1="200" y1="168" x2="245" y2="100" stroke="#EAF3DE" stroke-width="1.2" opacity="0.4" style="fill:rgb(0, 0, 0);stroke:rgb(234, 243, 222);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="200" y1="168" x2="260" y2="88" stroke="#EAF3DE" stroke-width="1.2" opacity="0.4" style="fill:rgb(0, 0, 0);stroke:rgb(234, 243, 222);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="200" y1="168" x2="278" y2="82" stroke="#EAF3DE" stroke-width="1.2" opacity="0.4" style="fill:rgb(0, 0, 0);stroke:rgb(234, 243, 222);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="400" y1="168" x2="355" y2="100" stroke="#EAF3DE" stroke-width="1.2" opacity="0.4" mask="url(#imagine-text-gaps-vecugy)" style="fill:rgb(0, 0, 0);stroke:rgb(234, 243, 222);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="400" y1="168" x2="340" y2="88" stroke="#EAF3DE" stroke-width="1.2" opacity="0.4" mask="url(#imagine-text-gaps-vecugy)" style="fill:rgb(0, 0, 0);stroke:rgb(234, 243, 222);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="400" y1="168" x2="322" y2="82" stroke="#EAF3DE" stroke-width="1.2" opacity="0.4" mask="url(#imagine-text-gaps-vecugy)" style="fill:rgb(0, 0, 0);stroke:rgb(234, 243, 222);color:rgb(0, 0, 0);stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- CRESCENT MOON -->
+  <circle cx="300" cy="52" r="20" fill="#97C459" style="fill:rgb(151, 196, 89);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="308" cy="48" r="15" fill="#639922" style="fill:rgb(99, 153, 34);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- STAR -->
+  <polygon points="330,38 332.5,46 341,46 334.5,51 337,59 330,54 323,59 325.5,51 319,46 327.5,46" fill="#C0DD97" transform="scale(0.6) translate(222,22)" style="fill:rgb(192, 221, 151);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- GROUND LINE -->
+  <rect x="210" y="256" width="160" height="3" rx="1.5" fill="#27500A" opacity="0.4" style="fill:rgb(39, 80, 10);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.4;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- LOGOTYPE -->
+  <text x="397.14" y="200" style="fill:rgb(23, 52, 4);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:52px;font-weight:500;text-anchor:start;dominant-baseline:auto">QurbaniHut</text>
+  <text x="421" y="224" style="fill:rgb(59, 109, 17);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">SACRIFICE WITH EASE</text>
+</svg>
