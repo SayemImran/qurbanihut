@@ -1,4 +1,5 @@
 import getAllAnimals from "@/app/lib/getAllAnimals";
+import AnimalbookForm from "@/components/animal/AnimalbookForm";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -116,7 +117,7 @@ const AnimalDetailsPage = async ({ params }) => {
               <h2 className="text-2xl font-bold text-white mb-6">
                 Book This Animal
               </h2>
-                {/* animal form will here */}
+                <AnimalbookForm/>
             </div>
           </div>
         </div>
