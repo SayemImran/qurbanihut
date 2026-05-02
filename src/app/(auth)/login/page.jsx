@@ -1,9 +1,29 @@
-import React from "react";
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { FaGoogle } from "react-icons/fa";
+import { authClient } from "@/app/lib/auth-client";
 
 const LoginPage = () => {
+
+
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const userData = Object.fromEntries(formData.entries());
+    console.log("Form submitted with data : ", userData);
+
+    const { data, error } = await authClient.signIn.email({
+      email: userData.email,
+      password: userData.password,
+      rememberMe: true,
+      callbackURL: "/",
+    });
+
+    console.log("data and errors : ", { data, error });
+  };
+
   return (
     <div className="min-h-screen relative flex items-center justify-center py-12 px-4">
       <div className="fixed inset-0 bg-gray-50 -z-10"></div>
@@ -27,7 +47,7 @@ const LoginPage = () => {
         </p>
 
         {/* form data here */}
-        <form className="space-y-5">
+        <form className="space-y-5" onSubmit={onSubmit}>
           <div>
             <label className="block text-gray-700 text-sm mb-2">Email</label>
             <input
@@ -69,9 +89,9 @@ const LoginPage = () => {
             </p>
           </div>
           <div>
-            <p className="flex gap-3 items-center text-green-600 border border-green-600 rounded-xl px-4 py-2 mt-4 cursor-pointer hover:bg-green-600 hover:text-white transition-colors">
+            <button className="flex gap-3 items-center text-green-600 border border-green-600 rounded-xl px-4 py-2 mt-4 cursor-pointer hover:bg-green-600 hover:text-white transition-colors">
               <FaGoogle /> login with Google
-            </p>
+            </button>
           </div>
         </div>
       </div>
