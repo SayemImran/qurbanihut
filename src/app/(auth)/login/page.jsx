@@ -6,8 +6,6 @@ import { FaGoogle } from "react-icons/fa";
 import { authClient } from "@/app/lib/auth-client";
 
 const LoginPage = () => {
-
-
   const onSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
@@ -24,6 +22,14 @@ const LoginPage = () => {
     console.log("data and errors : ", { data, error });
   };
 
+
+  const handleGoogleLogin = async () => {
+    const data = await authClient.signIn.social({
+      provider: "google",
+    });
+  };
+
+  
   return (
     <div className="min-h-screen relative flex items-center justify-center py-12 px-4">
       <div className="fixed inset-0 bg-gray-50 -z-10"></div>
@@ -89,7 +95,10 @@ const LoginPage = () => {
             </p>
           </div>
           <div>
-            <button className="flex gap-3 items-center text-green-600 border border-green-600 rounded-xl px-4 py-2 mt-4 cursor-pointer hover:bg-green-600 hover:text-white transition-colors">
+            <button
+              onClick={handleGoogleLogin}
+              className="flex gap-3 items-center text-green-600 border border-green-600 rounded-xl px-4 py-2 mt-4 cursor-pointer hover:bg-green-600 hover:text-white transition-colors"
+            >
               <FaGoogle /> login with Google
             </button>
           </div>

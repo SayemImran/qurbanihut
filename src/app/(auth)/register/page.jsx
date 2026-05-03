@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { authClient } from "@/app/lib/auth-client";
+import { FaGoogle } from "react-icons/fa";
 
 const RegisterPage = () => {
   const [imagePreview, setImagePreview] = useState("");
@@ -181,11 +182,13 @@ const RegisterPage = () => {
               <div className="flex items-center gap-3">
                 {/* Live preview */}
                 {imagePreview ? (
-                  <img
+                  <Image
                     src={imagePreview}
                     alt="Preview"
                     className="w-12 h-12 rounded-full object-cover border-2 border-emerald-400 shrink-0"
                     onError={() => setImagePreview("")}
+                    width={48}
+                    height={48}
                   />
                 ) : (
                   <div className="w-12 h-12 rounded-full bg-gray-100 border-2 border-dashed border-gray-300 flex items-center justify-center shrink-0">
@@ -231,7 +234,11 @@ const RegisterPage = () => {
               </span>
               <div className="flex-grow border-t border-gray-200"></div>
             </div>
-
+            <div className="w-full flex items-center justify-center">
+              <button className="flex gap-3 items-center text-green-600 border border-green-600 rounded-xl px-4 py-2 mt-4 cursor-pointer hover:bg-green-600 hover:text-white transition-colors">
+                <FaGoogle /> login with Google
+              </button>
+            </div>
             <p className="text-center text-gray-600 text-sm">
               Already have an account?{" "}
               <Link

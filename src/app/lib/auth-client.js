@@ -7,7 +7,7 @@ export const authClient = createAuthClient({
     inferAdditionalFields({
       user: {
         additionalFields: {
-          profileImage: {
+          image: {
             type: "string",
             required: false,
           },
