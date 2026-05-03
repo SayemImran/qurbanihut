@@ -1,10 +1,8 @@
+import getAllAnimals from '@/app/lib/getAllAnimals';
 import AnimalCard from '../card/AnimalCard';
 
 const FeatureAnimals = async () => {
-    const res = await fetch('http://localhost:3000/data.json', {
-        cache: 'no-store'
-    });
-    const allAnimals = await res.json();
+    const allAnimals = getAllAnimals();
     const featuredAnimals = allAnimals.slice(0, 4);
 
     return (
