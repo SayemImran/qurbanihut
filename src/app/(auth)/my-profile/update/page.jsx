@@ -10,16 +10,16 @@ const UpdateProfile = () => {
 
   const [formData, setFormData] = useState({
     name: user?.name || "",
-    profileImage: user?.profileImage || "",
+    image: user?.image || "",
   });
-  const [imagePreview, setImagePreview] = useState(user?.profileImage || "");
+  const [imagePreview, setImagePreview] = useState(user?.image || "");
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
-    if (name === "profileImage") setImagePreview(value);
+    if (name === "image") setImagePreview(value);
   };
 
   const handleSubmit = async (e) => {
@@ -29,7 +29,7 @@ const UpdateProfile = () => {
 
     const { error } = await authClient.updateUser({
       name: formData.name,
-      profileImage: formData.profileImage,
+      image: formData.image,
     });
 
     setLoading(false);
@@ -79,8 +79,8 @@ const UpdateProfile = () => {
             )}
             <input
               type="url"
-              name="profileImage"
-              value={formData.profileImage}
+              name="image"
+              value={formData.image}
               onChange={handleChange}
               placeholder="https://example.com/image.jpg"
               className="flex-1 px-4 py-3.5 bg-white/50 border border-gray-200 rounded-xl text-gray-800 placeholder-gray-400 focus:outline-none focus:border-emerald-400/50 focus:bg-white focus:ring-2 focus:ring-emerald-100 transition-all duration-300"

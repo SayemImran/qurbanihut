@@ -19,7 +19,7 @@ const RegisterPage = () => {
       name: "",
       email: "",
       password: "",
-      profileImage: "",
+      image: "",
     },
   });
 
@@ -28,7 +28,7 @@ const RegisterPage = () => {
       name: data.name,
       email: data.email,
       password: data.password,
-      profileImage: data.profileImage,
+      image: data.image,
       callbackURL: "/login",
     });
     console.log("form data : ", error, data);
@@ -211,7 +211,7 @@ const RegisterPage = () => {
                   <input
                     type="url"
                     placeholder="https://example.com/image.jpg"
-                    {...register("profileImage")}
+                    {...register("image")}
                     onChange={(e) => setImagePreview(e.target.value)}
                     className="w-full pl-4 pr-4 py-3.5 bg-white/50 border border-gray-200 rounded-xl text-gray-800 placeholder-gray-400 focus:outline-none focus:border-emerald-400/50 focus:bg-white focus:ring-2 focus:ring-emerald-100 transition-all duration-300"
                   />
