@@ -51,8 +51,8 @@ const Navbar = () => {
                   <Image
                   src={`${user.image}`}
                   alt="Profile Image"
-                  width={60}
-                  height={60}
+                  width={48}
+                  height={48}
                   className="rounded-4xl"
                 />
                 </Link>
@@ -135,8 +135,8 @@ const Navbar = () => {
                   <Image
                     src={user.image}
                     alt="Profile Image"
-                    width={64}
-                    height={64}
+                    width={48}
+                    height={48}
                     className="rounded-full"
                   />
                   </Link>
