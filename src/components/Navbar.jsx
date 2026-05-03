@@ -131,6 +131,7 @@ const Navbar = () => {
             {user ? (
               <>
                 {user.image ? (
+                  <Link href={"/my-profile"}>
                   <Image
                     src={user.image}
                     alt="Profile Image"
@@ -138,9 +139,12 @@ const Navbar = () => {
                     height={64}
                     className="rounded-full"
                   />
+                  </Link>
                 ) : (
                   <div className="w-10 h-10 rounded-full bg-[#173404] text-white flex items-center justify-center font-semibold">
-                    {user.name?.charAt(0).toUpperCase() ?? "U"}
+                    <Link href={"/my-profile"}>
+                    {user.name?.charAt(0).toUpperCase() || "U"}
+                    </Link>
                   </div>
                 )}
                 <button
