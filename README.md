@@ -43,7 +43,7 @@ A modern online platform for buying and selling Qurbani animals — built with N
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/qurbanihut.git
+git clone https://github.com/SayemImran/qurbanihut.git
 cd qurbanihut
 
 # Install dependencies
@@ -114,17 +114,6 @@ Make sure to add all environment variables in your Vercel project settings.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add your feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
----
 
 ## 📄 License
 
