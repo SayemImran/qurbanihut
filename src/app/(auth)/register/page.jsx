@@ -29,7 +29,7 @@ const RegisterPage = () => {
       email: data.email,
       password: data.password,
       image: data.image,
-      callbackURL: "/login",
+      callbackURL: "/",
     });
     console.log("form data : ", error, data);
   };
