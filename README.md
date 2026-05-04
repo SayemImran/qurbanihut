@@ -43,7 +43,7 @@ A modern online platform for buying and selling Qurbani animals — built with N
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/qurbanihut.git
+git clone https://github.com/SayemImran/qurbanihut.git
 cd qurbanihut
 
 # Install dependencies
