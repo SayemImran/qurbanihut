@@ -7,8 +7,10 @@ import { useForm } from "react-hook-form";
 import { authClient } from "@/app/lib/auth-client";
 import { FaGoogle } from "react-icons/fa";
 import { toast } from "react-toastify";
+import { useRouter } from "next/navigation";
 
 const RegisterPage = () => {
+  const router = useRouter();
   const [imagePreview, setImagePreview] = useState("");
 
   const {
