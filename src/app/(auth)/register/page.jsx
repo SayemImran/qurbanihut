@@ -32,7 +32,7 @@ const RegisterPage = () => {
       email: data.email,
       password: data.password,
       image: data.image,
-      callbackURL: "/",
+      callbackURL: "/login",
     });
     if (error) {
       toast.error(error.message || "Registration failed. Please try again.");
@@ -40,7 +40,7 @@ const RegisterPage = () => {
     }
 
     toast.success("Account created successfully!");
-    router.push("/");
+    router.push("/login");
     console.log("form data : ", error, data);
   };
 
