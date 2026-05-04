@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { authClient } from "@/app/lib/auth-client";
 import { FaGoogle } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const RegisterPage = () => {
   const [imagePreview, setImagePreview] = useState("");
@@ -31,6 +32,13 @@ const RegisterPage = () => {
       image: data.image,
       callbackURL: "/",
     });
+    if (error) {
+      toast.error(error.message || "Registration failed. Please try again.");
+      return;
+    }
+
+    toast.success("Account created successfully!");
+    router.push("/");
     console.log("form data : ", error, data);
   };
 
